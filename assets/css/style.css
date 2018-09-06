@@ -1,0 +1,124 @@
+/* * {
+  border: black 2px solid;
+} */
+
+/* general use styles */
+
+body {
+  margin: 0;
+  background: #aaaaaa url('../images/full-bloom.png');
+  font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+  line-height: 150%;
+  font-size: 16px;
+}
+
+h1 {
+  color: #4aaaa5;
+  margin: 0;
+  margin-bottom: 35px;
+  padding-bottom: 25px;
+  border-bottom-color: #dddddd;
+  border-bottom-style: solid;
+  border-bottom-width: 3px;
+  font-size: 36px;
+}
+
+.content {
+  width: 960px;
+  margin: 0 auto;
+}
+
+.clearfix::after {
+  content: "";
+  display: block;
+  clear: both;
+}
+
+/* end genral use styles */
+
+/* heading styles */
+.header {
+  font-family: 'Georgia', Times, 'Times New Roman', serif;
+  background-color: #ffffff;
+  border-bottom-style: solid;
+  border-bottom-width: 2px;
+  border-bottom-color: #cccccc;
+  margin: 0;
+  font-size: 16px;
+  width: 100%;
+}
+
+.nameblock {
+  float: left;
+  background-color: #4aaaa5;
+  color: #ffffff;
+  font-size: 28px;
+  font-weight: bold;
+  padding: 30px;
+  margin: 0;
+}
+
+.nav {
+  margin: 0;
+  padding: 35px 0;
+}
+
+.aboutblock, .contactblock { 
+  text-align: center;
+  float: right;
+  padding: 0 35px;
+}
+
+.navlink {
+  color: #777777;
+  text-decoration: none;
+}
+
+.portfolioblock {
+  border-left-style: solid;
+  border-right-style: solid;
+  border-left-color: #cccccc;
+  border-right-color: #cccccc;
+  border-left-width: 1px;
+  border-right-width: 1px;
+  text-align: center;
+  float: right;
+  padding: 0 35px;
+}
+
+/* end heading styles */
+
+/* main content styles */
+
+.main {
+  background-color: #ffffff;
+  color: #777777;
+  padding: 35px;
+  margin-top: 35px;
+}
+
+.imgself {
+  width: 200px;
+  float: left;
+  margin-right: 35px;
+}
+
+/* end main content styles */
+
+/* footer styles */
+
+.footer {
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  text-align: center;
+  font-size: 10px;
+  color: #cccccc;
+  background-color: #666666;
+  border-top-color: #4aaaa5;
+  border-top-style: solid;
+  border-top-width: 7px;
+  padding-top: 35px;
+}
+
+/* end footer styles */
