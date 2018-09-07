@@ -117,6 +117,37 @@ textarea {
   margin-bottom: 25px;
 }
 
+.foliobox {
+  float: left;
+  margin-right: 25px;
+  margin-bottom: 30px;
+}
+
+.folioline {
+  height: 150px;
+}
+
+.foliotext {
+  position: relative;
+  width: 270px;
+  background-color: #4aaaa5;
+  text-align: center;
+  padding: 10px;
+  top: 140px;
+  left: -10px;
+  opacity: 0.75;
+}
+
+.foliotext:hover {
+  opacity: 1.0;
+}
+
+.foliolink {
+  opacity: 1.0;
+  color: #cccccc;
+  text-decoration: none;
+}
+
 #submit {
   background-color: #4aaaa5;
   padding: 15px 40px;
